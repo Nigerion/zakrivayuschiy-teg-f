@@ -1,1 +1,18 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root{
+    --background-1:#d3d3d3;
+    --background-2:rgba(211, 211, 211, 0);
+    --background-3:#e7e7e7;
+    --background-4:#1a1a1a;
+    --border:black;
+    --background:#FFF;
+    --themes-main-color:black;
+    --color:white;
+    --main-color:white;
+    --contour:black;
+    --sparcks:white;
+    --core:white;
+    --corentcolor:black;
+    --shadow:white;
+    --floppy:black;
+}

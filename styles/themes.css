@@ -4,3 +4,39 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light{
+    --background-1:#d3d3d3;
+    --background-2:rgba(211, 211, 211, 0);
+    --background-3:#e7e7e7;
+    --background-4:#1a1a1a;
+    --border:black;
+    --background:#FFF;
+    --themes-main-color:black;
+    --color:white;
+    --main-color:white;
+    --contour:black;
+    --sparcks:white;
+    --core:white;
+    --corentcolor:black;
+    --shadow:white;
+    --floppy:black;
+}
+
+
+:root.theme-dark{
+    --background-1:#000;
+    --background-2:rgba(211, 211, 211, 0);
+    --background-3:#007f0c;
+    --background-4:#004306;
+    --border: #00CC14;
+    --background:#000000;
+    --themes-main-color:#00CC14;
+    --main-color:black;
+    --contour:#00CC14;
+    --sparcks:black;
+    --core:black;
+    --corentcolor:black;
+    --color:#00CC14;
+    --shadow:black;
+    --floppy:#00CC14;
+}
