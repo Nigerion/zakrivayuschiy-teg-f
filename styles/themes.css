@@ -5,10 +5,10 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light{
-    --background-1:#d3d3d3;
-    --background-2:rgba(211, 211, 211, 0);
-    --background-3:#e7e7e7;
-    --background-4:#1a1a1a;
+    --background-main-color:#d3d3d3;
+    --background-opacity:rgba(211, 211, 211, 0);
+    --background-gradient-light:#e7e7e7;
+    --background-gradient-dark:#1a1a1a;
     --border:black;
     --background:#FFF;
     --themes-main-color:black;
@@ -20,14 +20,17 @@
     --corentcolor:black;
     --shadow:white;
     --floppy:black;
+    --main-font-weight:400;
+    --header-font-weight:400;
+    --title-font-weight:700;
 }
 
 
 :root.theme-dark{
-    --background-1:#000;
-    --background-2:rgba(211, 211, 211, 0);
-    --background-3:#007f0c;
-    --background-4:#004306;
+    --background-main-color:#000;
+    --background-opacity:rgba(211, 211, 211, 0);
+    --background-gradient-light:#007f0c;
+    --background-gradient-dark:#004306;
     --border: #00CC14;
     --background:#000000;
     --themes-main-color:#00CC14;
@@ -39,4 +42,7 @@
     --color:#00CC14;
     --shadow:black;
     --floppy:#00CC14;
+    --main-font-weight:465;
+    --header-font-weight:400;
+    --title-font-weight:785;
 }
