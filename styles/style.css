@@ -77,7 +77,7 @@
   font-family: Inter , sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: var(--title-font-weight);
+  font-variation-settings: "wght" var(--title-font-weight);
   line-height: normal;
 }
 
@@ -93,8 +93,9 @@
   font-family: Inter, sans-serif;
   font-size: clamp(1.4375rem, 1.4815rem + -0.1878vw, 1.3125rem);
   font-style: normal;
-  font-weight: var(--main-font-weight);
+  font-variation-settings: "wght" var(--main-font-weight);
   line-height: 21px;
+  font-size: 18px;
 }
 
 .like-icon{
@@ -165,7 +166,13 @@
   line-height: normal;
   text-transform: uppercase;
   text-shadow: -1px 0px  var(--shadow),1px 0px  var(--shadow) ,0px 1px  var(--shadow) ,0px -1px  var(--shadow);
-  -webkit-text-stroke: 0.2px  var(--shadow);
+}
+
+@supports (-webkit-text-stroke: 1px var(--shadow)) {
+  .signature {
+    -webkit-text-stroke: 1px var(--shadow);
+    text-shadow: none;
+  }
 }
 
 .save-icon{
